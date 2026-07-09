@@ -2,7 +2,13 @@
 
 [![framesail-mcp MCP server](https://glama.ai/mcp/servers/framesail/framesail-mcp/badges/score.svg)](https://glama.ai/mcp/servers/framesail/framesail-mcp)
 
-Official remote MCP server for [Framesail](https://framesail.com) — create long-form YouTube videos end to end from any MCP client: script, locked character references, storyboard, voiceover, and final MP4, with characters and style held consistent across every shot.
+Official remote MCP server for [Framesail](https://framesail.com) — create long-form (faceless YouTube) videos end to end from any MCP client: script, locked character references, storyboard, voiceover, and final video editing — with characters and style held consistent across every shot.
+
+Making long-form AI video today means 8+ tabs stitched by hand — an LLM for the script, a voice model, an image model, a video model — with characters drifting between tools and style resetting at every export. Framesail replaces the patchwork: the whole pipeline runs in one place and manages your video's context end to end.
+
+Six stages: **Style** (paste images, videos, or YouTube links and Framesail reverse-engineers the look, voice, and direction), **Script** (write it yourself or generate it in your narrative style), **Reference images** (auto-generated for every character, place, and prop), **Voiceover** (one narrator or many characters, with word-level timing), **Storyboard** (planned scene by scene), and **Editor** (captions, music, SFX, then export).
+
+No black box: you control every prompt, asset, model, and setting.
 
 This repository documents the hosted server. The service itself is closed-source and runs at:
 
